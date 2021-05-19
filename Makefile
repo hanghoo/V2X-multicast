@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/hang/Downloads/CV2X multicast"
+CMAKE_SOURCE_DIR = /home/hang/Downloads/V2XMulticast
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/hang/Downloads/CV2X multicast"
+CMAKE_BINARY_DIR = /home/hang/Downloads/V2XMulticast
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/hang/Downloads/CV2X multicast/CMakeFiles" "/home/hang/Downloads/CV2X multicast/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hang/Downloads/V2XMulticast/CMakeFiles /home/hang/Downloads/V2XMulticast/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/hang/Downloads/CV2X multicast/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hang/Downloads/V2XMulticast/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Blob
+# Target rules for targets named BlobDetection
 
 # Build rule for target.
-Blob: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Blob
-.PHONY : Blob
+BlobDetection: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 BlobDetection
+.PHONY : BlobDetection
 
 # fast build rule for target.
-Blob/fast:
-	$(MAKE) -f CMakeFiles/Blob.dir/build.make CMakeFiles/Blob.dir/build
-.PHONY : Blob/fast
+BlobDetection/fast:
+	$(MAKE) -f CMakeFiles/BlobDetection.dir/build.make CMakeFiles/BlobDetection.dir/build
+.PHONY : BlobDetection/fast
 
-test.o: test.cpp.o
+BlobDetection.o: BlobDetection.cpp.o
 
-.PHONY : test.o
+.PHONY : BlobDetection.o
 
 # target to build an object file
-test.cpp.o:
-	$(MAKE) -f CMakeFiles/Blob.dir/build.make CMakeFiles/Blob.dir/test.cpp.o
-.PHONY : test.cpp.o
+BlobDetection.cpp.o:
+	$(MAKE) -f CMakeFiles/BlobDetection.dir/build.make CMakeFiles/BlobDetection.dir/BlobDetection.cpp.o
+.PHONY : BlobDetection.cpp.o
 
-test.i: test.cpp.i
+BlobDetection.i: BlobDetection.cpp.i
 
-.PHONY : test.i
+.PHONY : BlobDetection.i
 
 # target to preprocess a source file
-test.cpp.i:
-	$(MAKE) -f CMakeFiles/Blob.dir/build.make CMakeFiles/Blob.dir/test.cpp.i
-.PHONY : test.cpp.i
+BlobDetection.cpp.i:
+	$(MAKE) -f CMakeFiles/BlobDetection.dir/build.make CMakeFiles/BlobDetection.dir/BlobDetection.cpp.i
+.PHONY : BlobDetection.cpp.i
 
-test.s: test.cpp.s
+BlobDetection.s: BlobDetection.cpp.s
 
-.PHONY : test.s
+.PHONY : BlobDetection.s
 
 # target to generate assembly for a file
-test.cpp.s:
-	$(MAKE) -f CMakeFiles/Blob.dir/build.make CMakeFiles/Blob.dir/test.cpp.s
-.PHONY : test.cpp.s
+BlobDetection.cpp.s:
+	$(MAKE) -f CMakeFiles/BlobDetection.dir/build.make CMakeFiles/BlobDetection.dir/BlobDetection.cpp.s
+.PHONY : BlobDetection.cpp.s
 
 # Help Target
 help:
@@ -157,11 +157,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... Blob"
+	@echo "... BlobDetection"
 	@echo "... edit_cache"
-	@echo "... test.o"
-	@echo "... test.i"
-	@echo "... test.s"
+	@echo "... BlobDetection.o"
+	@echo "... BlobDetection.i"
+	@echo "... BlobDetection.s"
 .PHONY : help
 
 

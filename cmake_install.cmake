@@ -1,4 +1,4 @@
-# Install script for directory: /home/hang/Downloads/CV2X multicast
+# Install script for directory: /home/hang/Downloads/V2XMulticast
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/hang/Downloads/CV2X multicast/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/hang/Downloads/V2XMulticast/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
